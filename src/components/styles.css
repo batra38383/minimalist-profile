@@ -553,12 +553,11 @@ img {
 .category-badge {
   font-size: var(--text-xs);
   padding: var(--space-xs) var(--space-sm);
-  background: var(--background-light);
-  color: var(--text-secondary);
   border-radius: var(--radius-sm);
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  border: none !important;
 }
 
 .project-title {
@@ -583,10 +582,9 @@ img {
 .tech-badge {
   font-size: var(--text-xs);
   padding: var(--space-xs) var(--space-sm);
-  background: var(--background-light);
-  color: var(--text-secondary);
   border-radius: var(--radius-sm);
   font-weight: 500;
+  border: none !important;
 }
 
 /* ===============================

@@ -75,6 +75,18 @@ const PortfolioSection = () => {
   ];
 
   const categories = ['All', 'Platform Engineering', 'Strategic Initiative', 'Architecture', 'Business Solutions'];
+  
+  const getCategoryColor = (category) => {
+    const colors = {
+      'Platform Engineering': 'success',
+      'Strategic Initiative': 'info',
+      'Architecture': 'warning',
+      'Business Solutions': 'danger',
+      'Product Tooling': 'primary',
+      'Healthcare Technology': 'dark'
+    };
+    return colors[category] || 'secondary';
+  };
   const [activeCategory, setActiveCategory] = useState('All');
 
   const filteredProjects = activeCategory === 'All' 
@@ -133,7 +145,7 @@ const PortfolioSection = () => {
                 </div>
                 <Card.Body className="d-flex flex-column">
                   <div className="mb-2">
-                    <Badge bg="secondary" className="category-badge">
+                    <Badge bg={getCategoryColor(project.category)} className="category-badge">
                       {project.category}
                     </Badge>
                   </div>
