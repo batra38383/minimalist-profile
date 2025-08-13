@@ -53,7 +53,7 @@ const Navigation = () => {
             handleNavClick('home');
           }}
         >
-          John Doe
+          Gurjinder Singh Batra
         </Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

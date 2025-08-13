@@ -31,7 +31,7 @@ const HeroSection = () => {
           <Col lg={6} md={12} className="hero-image-col">
             <div className="hero-image-wrapper">
               <Image 
-                src="/sardar.png" 
+                src="/profile-photo.jpg" 
                 alt="Gurjinder Singh Batra - Senior Engineering Manager professional headshot"
                 className="hero-image"
                 fluid
