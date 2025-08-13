@@ -68,18 +68,34 @@ const ContactSection = () => {
     setErrors({});
     
     try {
-      // Simulate API call - replace with actual form submission service
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      
-      setAlertType('success');
-      setAlertMessage('Thank you for your message! I\'ll get back to you soon.');
-      setShowAlert(true);
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
+      // Submit form data to Formspree
+      const response = await fetch('https://formspree.io/f/xwpqzkay', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          _replyto: formData.email
+        }),
       });
+
+      if (response.ok) {
+        setAlertType('success');
+        setAlertMessage('Thank you for your message! I\'ll get back to you soon.');
+        setShowAlert(true);
+        setFormData({
+          name: '',
+          email: '',
+          subject: '',
+          message: ''
+        });
+      } else {
+        throw new Error('Form submission failed');
+      }
     } catch (error) {
       setAlertType('danger');
       setAlertMessage('Sorry, there was an error sending your message. Please try again.');
