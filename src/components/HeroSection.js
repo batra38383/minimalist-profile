@@ -9,14 +9,14 @@ const HeroSection = () => {
           <Col lg={6} md={12} className="hero-content">
             <div className="hero-text">
               <h1 className="hero-name">
-                John <span className="highlight">Doe</span>
+                Gurjinder Singh <span className="highlight">Batra</span>
               </h1>
               <h2 className="hero-title">
-                Full Stack Developer & UI/UX Designer
+                Senior Engineering Manager at Cloudflare
               </h2>
               <p className="hero-description">
-                Passionate about creating innovative digital experiences that make a difference. 
-                I transform ideas into elegant, functional solutions that users love.
+                Multifaceted technical career with 10+ years track record of innovation and success. 
+                Based in San Francisco, passionate about building scalable solutions and leading high-performing teams.
               </p>
               <div className="hero-buttons">
                 <a href="#contact" className="btn btn-primary hero-btn">
@@ -32,7 +32,7 @@ const HeroSection = () => {
             <div className="hero-image-wrapper">
               <Image 
                 src="https://via.placeholder.com/400x400/007bff/ffffff?text=Profile" 
-                alt="John Doe - Full Stack Developer professional headshot"
+                alt="Gurjinder Singh Batra - Senior Engineering Manager professional headshot"
                 className="hero-image"
                 fluid
                 role="img"

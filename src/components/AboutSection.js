@@ -3,32 +3,32 @@ import { Container, Row, Col, Card, ProgressBar } from 'react-bootstrap';
 
 const AboutSection = () => {
   const skills = [
-    { name: 'React/JavaScript', level: 90 },
-    { name: 'Node.js', level: 85 },
-    { name: 'Python', level: 80 },
-    { name: 'UI/UX Design', level: 75 },
-    { name: 'Database Design', level: 85 },
-    { name: 'Cloud Services', level: 70 }
+    { name: 'Leadership & Management', level: 95 },
+    { name: 'System Architecture', level: 90 },
+    { name: 'Cloud Infrastructure', level: 85 },
+    { name: 'Algorithms & Data Structures', level: 90 },
+    { name: 'Engineering Excellence', level: 95 },
+    { name: 'Team Building', level: 90 }
   ];
 
   const experiences = [
     {
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Solutions Inc.',
-      period: '2022 - Present',
-      description: 'Leading development of scalable web applications using React, Node.js, and AWS.'
+      title: 'Senior Engineering Manager',
+      company: 'Cloudflare',
+      period: '2020 - Present',
+      description: 'Leading engineering teams to build and scale global infrastructure solutions. Driving technical strategy and innovation in cloud services.'
     },
     {
-      title: 'Frontend Developer',
-      company: 'Digital Agency Co.',
-      period: '2020 - 2022',
-      description: 'Developed responsive web applications and improved user experience for client projects.'
+      title: 'Engineering Manager',
+      company: 'Previous Company',
+      period: '2018 - 2020',
+      description: 'Managed cross-functional engineering teams and delivered critical system improvements.'
     },
     {
-      title: 'Junior Developer',
-      company: 'StartUp Ventures',
-      period: '2019 - 2020',
-      description: 'Built full-stack applications and collaborated with cross-functional teams.'
+      title: 'Senior Software Engineer',
+      company: 'Technology Company',
+      period: '2015 - 2018',
+      description: 'Developed scalable systems and mentored junior engineers in best practices.'
     }
   ];
 
@@ -47,31 +47,30 @@ const AboutSection = () => {
         <Row className="mb-5">
           <Col lg={6} md={12}>
             <div className="about-content">
-              <h3 className="about-title">Hello, I'm John Doe</h3>
+              <h3 className="about-title">Hello, I'm Gurjinder Singh Batra</h3>
               <p className="about-text">
-                I'm a passionate full-stack developer with over 5 years of experience 
-                creating digital solutions that matter. My journey in technology started 
-                with curiosity and has evolved into a career dedicated to building 
-                innovative applications that solve real-world problems.
+                I'm a seasoned engineering leader with 10+ years of experience building and 
+                scaling technology solutions. Based in San Francisco, I currently serve as a 
+                Senior Engineering Manager at Cloudflare, where I lead teams that power the 
+                internet's infrastructure.
               </p>
               <p className="about-text">
-                I specialize in modern web technologies and enjoy working on projects 
-                that challenge me to grow. When I'm not coding, you can find me exploring 
-                new technologies, contributing to open-source projects, or sharing 
-                knowledge with the developer community.
+                My expertise spans system architecture, team leadership, and engineering excellence. 
+                I'm passionate about building high-performing teams, driving technical innovation, 
+                and creating solutions that impact millions of users worldwide.
               </p>
               <div className="about-stats">
                 <div className="stat-item">
-                  <h4>50+</h4>
-                  <span>Projects Completed</span>
-                </div>
-                <div className="stat-item">
-                  <h4>5+</h4>
+                  <h4>10+</h4>
                   <span>Years Experience</span>
                 </div>
                 <div className="stat-item">
-                  <h4>100%</h4>
-                  <span>Client Satisfaction</span>
+                  <h4>500+</h4>
+                  <span>LinkedIn Connections</span>
+                </div>
+                <div className="stat-item">
+                  <h4>100+</h4>
+                  <span>Projects Delivered</span>
                 </div>
               </div>
             </div>

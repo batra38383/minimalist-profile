@@ -93,7 +93,7 @@ const ContactSection = () => {
     {
       name: 'LinkedIn',
       icon: 'fab fa-linkedin-in',
-      url: 'https://linkedin.com/in/johndoe',
+      url: 'https://www.linkedin.com/in/gurjinderbatra/',
       color: '#0077b5'
     },
     {
