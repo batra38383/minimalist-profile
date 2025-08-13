@@ -97,22 +97,16 @@ const ContactSection = () => {
       color: '#0077b5'
     },
     {
-      name: 'GitHub',
-      icon: 'fab fa-github',
-      url: 'https://github.com/johndoe',
-      color: '#333'
-    },
-    {
-      name: 'Twitter',
-      icon: 'fab fa-twitter',
-      url: 'https://twitter.com/johndoe',
-      color: '#1da1f2'
-    },
-    {
       name: 'Email',
       icon: 'fas fa-envelope',
-      url: 'mailto:john@example.com',
+      url: 'mailto:contact@gurjinderbatra.com',
       color: '#ea4335'
+    },
+    {
+      name: 'Phone',
+      icon: 'fas fa-phone',
+      url: 'tel:(980)226-7945',
+      color: '#28a745'
     }
   ];
 
@@ -123,7 +117,7 @@ const ContactSection = () => {
           <Col lg={12} className="text-center mb-5">
             <h2 className="section-title">Get In Touch</h2>
             <p className="section-subtitle">
-              Let's discuss your next project or just say hello!
+              Let's discuss engineering leadership opportunities or collaboration possibilities!
             </p>
           </Col>
         </Row>
@@ -270,11 +264,11 @@ const ContactSection = () => {
                 </p>
                 <p className="mb-1">
                   <i className="fas fa-phone me-2"></i>
-                  +1 (555) 123-4567
+                  (980) 226-7945
                 </p>
                 <p className="mb-0">
                   <i className="fas fa-envelope me-2"></i>
-                  john@example.com
+                  contact@gurjinderbatra.com
                 </p>
               </div>
             </div>

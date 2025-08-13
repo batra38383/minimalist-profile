@@ -3,32 +3,38 @@ import { Container, Row, Col, Card, ProgressBar } from 'react-bootstrap';
 
 const AboutSection = () => {
   const skills = [
-    { name: 'Leadership & Management', level: 95 },
-    { name: 'System Architecture', level: 90 },
-    { name: 'Cloud Infrastructure', level: 85 },
-    { name: 'Algorithms & Data Structures', level: 90 },
-    { name: 'Engineering Excellence', level: 95 },
-    { name: 'Team Building', level: 90 }
+    { name: 'Leadership & Engineering Management', level: 95 },
+    { name: 'Cloud Computing & SaaS', level: 90 },
+    { name: 'System Architecture & Microservices', level: 90 },
+    { name: 'Strategic Planning & Product Development', level: 85 },
+    { name: 'Agile Methodologies & Innovation', level: 90 },
+    { name: 'Software Development & Technical', level: 85 }
   ];
 
   const experiences = [
     {
       title: 'Senior Engineering Manager',
       company: 'Cloudflare',
-      period: '2020 - Present',
-      description: 'Leading engineering teams to build and scale global infrastructure solutions. Driving technical strategy and innovation in cloud services.'
+      period: 'April 2019 - Present',
+      description: 'Lead multiple core product and platform teams within the Cloudflare Control Plane, managing over 20 engineers globally. Lead initiatives for enterprise-grade readiness, reducing annual costs by $1M+ and securing hundreds of millions in new contracts.'
     },
     {
       title: 'Engineering Manager',
-      company: 'Previous Company',
-      period: '2018 - 2020',
-      description: 'Managed cross-functional engineering teams and delivered critical system improvements.'
+      company: 'Hotwire (Expedia Group)',
+      period: 'March 2018 - April 2019',
+      description: 'Led multiple full-stack teams developing new product capabilities, transforming monolithic architecture to microservices. Developed long-term technology roadmap resulting in 30% reduction in redundant code.'
     },
     {
-      title: 'Senior Software Engineer',
-      company: 'Technology Company',
-      period: '2015 - 2018',
-      description: 'Developed scalable systems and mentored junior engineers in best practices.'
+      title: 'Senior Software Engineer/Engineering Manager',
+      company: 'Capital One',
+      period: 'November 2014 - March 2018',
+      description: 'Built and led engineering teams for new business lines focused on auto dealers, generating multimillion-dollar revenue. Led high-impact initiatives building web applications with microservices architecture.'
+    },
+    {
+      title: 'Software Developer',
+      company: 'Epic Systems',
+      period: 'February 2010 - November 2014',
+      description: 'Led team delivering tools for customer builds to production for major healthcare providers. Designed software applications for medical workflows, reducing code shipping time by 50%.'
     }
   ];
 
@@ -49,28 +55,29 @@ const AboutSection = () => {
             <div className="about-content">
               <h3 className="about-title">Hello, I'm Gurjinder Singh Batra</h3>
               <p className="about-text">
-                I'm a seasoned engineering leader with 10+ years of experience building and 
+                I'm a seasoned engineering leader with 15+ years of experience building and 
                 scaling technology solutions. Based in San Francisco, I currently serve as a 
-                Senior Engineering Manager at Cloudflare, where I lead teams that power the 
-                internet's infrastructure.
+                Senior Engineering Manager at Cloudflare, where I lead multiple core product and 
+                platform teams managing over 20 engineers globally.
               </p>
               <p className="about-text">
-                My expertise spans system architecture, team leadership, and engineering excellence. 
-                I'm passionate about building high-performing teams, driving technical innovation, 
-                and creating solutions that impact millions of users worldwide.
+                My expertise spans enterprise-grade system architecture, team leadership, and 
+                strategic product development. I'm passionate about driving technical innovation, 
+                building high-performing teams, and delivering solutions that generate hundreds 
+                of millions in revenue while impacting millions of users worldwide.
               </p>
               <div className="about-stats">
                 <div className="stat-item">
-                  <h4>10+</h4>
+                  <h4>15+</h4>
                   <span>Years Experience</span>
                 </div>
                 <div className="stat-item">
-                  <h4>500+</h4>
-                  <span>LinkedIn Connections</span>
+                  <h4>20+</h4>
+                  <span>Engineers Managed</span>
                 </div>
                 <div className="stat-item">
-                  <h4>100+</h4>
-                  <span>Projects Delivered</span>
+                  <h4>$1M+</h4>
+                  <span>Cost Savings Led</span>
                 </div>
               </div>
             </div>

@@ -8,73 +8,73 @@ const PortfolioSection = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      category: 'Full Stack',
-      image: 'https://via.placeholder.com/400x250/007bff/ffffff?text=E-Commerce',
-      description: 'A complete e-commerce solution with React, Node.js, and MongoDB',
-      fullDescription: 'Built a comprehensive e-commerce platform featuring user authentication, product catalog, shopping cart, payment integration, and admin dashboard. Implemented responsive design, search functionality, and real-time inventory management.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API', 'JWT'],
-      demoLink: '#',
+      title: 'Cloudflare Control Plane Architecture',
+      category: 'Platform Engineering',
+      image: 'https://via.placeholder.com/400x250/FF6900/ffffff?text=Cloudflare+Control+Plane',
+      description: 'Led transformation from monolith to Micro Frontend architecture serving millions of users',
+      fullDescription: 'Spearheaded the architectural transformation of Cloudflare\'s core Control Plane from a monolithic system to a scalable Micro Frontend architecture. This initiative reduced annual labor costs by over $1M, improved developer productivity, and enhanced system reliability for enterprise customers.',
+      technologies: ['Microservices', 'Micro Frontends', 'Cloud Architecture', 'Enterprise Systems', 'Team Leadership'],
+      demoLink: 'https://cloudflare.com',
       githubLink: '#'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      category: 'Frontend',
-      image: 'https://via.placeholder.com/400x250/28a745/ffffff?text=Task+App',
-      description: 'A collaborative task management application with real-time updates',
-      fullDescription: 'Developed a feature-rich task management application with drag-and-drop functionality, real-time collaboration, team management, and progress tracking. Integrated with third-party APIs for notifications and calendar sync.',
-      technologies: ['React', 'Redux', 'Socket.io', 'Material-UI', 'Firebase'],
-      demoLink: '#',
+      title: 'Enterprise-Grade Platform Readiness',
+      category: 'Strategic Initiative',
+      image: 'https://via.placeholder.com/400x250/0099FF/ffffff?text=Enterprise+Platform',
+      description: 'Led initiatives ensuring scalability for large-scale customers, securing $100Ms in contracts',
+      fullDescription: 'Directed multiple cross-functional teams to prepare Cloudflare for enterprise-grade readiness, focusing on scalability, performance, and reliability for large-scale customers. These improvements resulted in enhanced customer retention and securing hundreds of millions of dollars in new annual contracts.',
+      technologies: ['Scalability Engineering', 'Enterprise Architecture', 'Performance Optimization', 'Customer Success', 'Revenue Growth'],
+      demoLink: 'https://cloudflare.com/enterprise',
       githubLink: '#'
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      category: 'Frontend',
-      image: 'https://via.placeholder.com/400x250/ffc107/ffffff?text=Weather',
-      description: 'Interactive weather dashboard with forecasts and location-based data',
-      fullDescription: 'Created an intuitive weather dashboard that provides current conditions, 7-day forecasts, and interactive maps. Features include location-based weather, search functionality, and favorite locations management.',
-      technologies: ['React', 'Weather API', 'Mapbox', 'Chart.js', 'CSS3'],
+      title: 'Feature Experimentation Platform',
+      category: 'Product Tooling',
+      image: 'https://via.placeholder.com/400x250/28a745/ffffff?text=Experimentation+Platform',
+      description: 'Built essential tooling supporting hundreds of feature experiments weekly',
+      fullDescription: 'Managed multiple teams to develop and maintain essential tooling for Cloudflare Product teams, facilitating feature experimentation and rollouts. These tools currently support the delivery of hundreds of new experiments and features at Cloudflare each week, enabling rapid product innovation.',
+      technologies: ['Feature Flags', 'A/B Testing', 'Product Analytics', 'Developer Tools', 'Continuous Deployment'],
       demoLink: '#',
       githubLink: '#'
     },
     {
       id: 4,
-      title: 'Blog CMS',
-      category: 'Full Stack',
-      image: 'https://via.placeholder.com/400x250/dc3545/ffffff?text=Blog+CMS',
-      description: 'Content management system for bloggers with rich text editing',
-      fullDescription: 'Built a comprehensive blog content management system with rich text editing, media management, SEO optimization, and multi-user support. Includes comment system, social sharing, and analytics dashboard.',
-      technologies: ['React', 'Express.js', 'PostgreSQL', 'AWS S3', 'TinyMCE'],
-      demoLink: '#',
+      title: 'Hotwire Microservices Transformation',
+      category: 'Architecture',
+      image: 'https://via.placeholder.com/400x250/dc3545/ffffff?text=Microservices',
+      description: 'Transformed monolithic lodging portal to microservices, reducing redundant code by 30%',
+      fullDescription: 'Led the architectural transformation of Hotwire\'s lodging portal from a monolithic system to a microservices architecture. Developed a long-term technology roadmap that encouraged reuse of Expedia Group services, resulting in a 30% reduction in redundant code and simplified infrastructure.',
+      technologies: ['Microservices', 'Cloud Migration', 'Service Architecture', 'Code Optimization', 'Infrastructure'],
+      demoLink: 'https://hotwire.com',
       githubLink: '#'
     },
     {
       id: 5,
-      title: 'Cryptocurrency Tracker',
-      category: 'Frontend',
-      image: 'https://via.placeholder.com/400x250/6f42c1/ffffff?text=Crypto',
-      description: 'Real-time cryptocurrency price tracking and portfolio management',
-      fullDescription: 'Developed a comprehensive cryptocurrency tracking application with real-time price updates, portfolio management, price alerts, and historical data visualization. Integrated with multiple crypto APIs for accurate data.',
-      technologies: ['React', 'Redux', 'CoinGecko API', 'Chart.js', 'LocalStorage'],
+      title: 'Capital One Auto Dealer Platform',
+      category: 'Business Solutions',
+      image: 'https://via.placeholder.com/400x250/6f42c1/ffffff?text=Auto+Platform',
+      description: 'Built technology solutions for auto dealers generating multimillion-dollar revenue',
+      fullDescription: 'Built and led engineering teams to develop innovative technology solutions for new business lines focused on auto dealers. These solutions significantly boosted customer lead generation and generated multimillion-dollar revenue streams through self-service customer portals and automated loan servicing.',
+      technologies: ['Business Development', 'Customer Lead Generation', 'Self-Service Platforms', 'Revenue Generation', 'Docker'],
       demoLink: '#',
       githubLink: '#'
     },
     {
       id: 6,
-      title: 'Restaurant Finder',
-      category: 'Full Stack',
-      image: 'https://via.placeholder.com/400x250/fd7e14/ffffff?text=Restaurant',
-      description: 'Location-based restaurant discovery with reviews and ratings',
-      fullDescription: 'Created a restaurant discovery platform with location-based search, user reviews, ratings, reservation system, and social features. Includes advanced filtering, photo sharing, and integration with maps and payment systems.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Google Maps API', 'Cloudinary'],
-      demoLink: '#',
+      title: 'Epic Systems Healthcare Tools',
+      category: 'Healthcare Technology',
+      image: 'https://via.placeholder.com/400x250/fd7e14/ffffff?text=Healthcare+Tools',
+      description: 'Delivered production tools for major healthcare providers, reducing deployment time by 50%',
+      fullDescription: 'Led the team responsible for delivering critical tools that facilitate the transfer of customer builds to production for major healthcare providers. Designed software applications enhancing complex medical workflows and implemented end-to-end testing, reducing code shipping time by more than 50% while ensuring patient safety.',
+      technologies: ['Healthcare Software', 'Production Tools', 'Medical Workflows', 'Quality Assurance', 'Patient Safety'],
+      demoLink: 'https://epic.com',
       githubLink: '#'
     }
   ];
 
-  const categories = ['All', 'Full Stack', 'Frontend', 'Backend'];
+  const categories = ['All', 'Platform Engineering', 'Strategic Initiative', 'Architecture', 'Business Solutions'];
   const [activeCategory, setActiveCategory] = useState('All');
 
   const filteredProjects = activeCategory === 'All' 
@@ -91,9 +91,9 @@ const PortfolioSection = () => {
       <Container>
         <Row>
           <Col lg={12} className="text-center mb-5">
-            <h2 className="section-title">My Portfolio</h2>
+            <h2 className="section-title">Key Achievements</h2>
             <p className="section-subtitle">
-              Showcasing my recent projects and technical achievements
+              Showcasing major initiatives and technical accomplishments across my career
             </p>
           </Col>
         </Row>
