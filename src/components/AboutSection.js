@@ -16,25 +16,25 @@ const AboutSection = () => {
       title: 'Senior Engineering Manager',
       company: 'Cloudflare',
       period: 'April 2019 - Present',
-      description: 'Lead multiple core product and platform teams within the Cloudflare Control Plane, managing over 20 engineers globally. Lead initiatives for enterprise-grade readiness, reducing annual costs by $1M+ and securing hundreds of millions in new contracts.'
+      description: 'Executive leadership of multiple core product and platform engineering teams within Cloudflare\'s Control Plane infrastructure, managing a diverse global workforce of 20+ engineers across senior, mid-level, and junior experience levels. Drive strategic technology initiatives ensuring enterprise-grade platform readiness, scalability, and performance optimization for Fortune 500 customers. Spearhead organizational transformation from monolithic to microservices architecture, achieving $1M+ annual cost reduction while securing hundreds of millions in new enterprise contracts. Collaborate directly with C-suite executives and product leadership to establish technology roadmaps, resource allocation strategies, and cross-functional team coordination spanning multiple geographical regions.'
     },
     {
       title: 'Engineering Manager',
       company: 'Hotwire (Expedia Group)',
       period: 'March 2018 - April 2019',
-      description: 'Led multiple full-stack teams developing new product capabilities, transforming monolithic architecture to microservices. Developed long-term technology roadmap resulting in 30% reduction in redundant code.'
+      description: 'Strategic leadership of cross-functional engineering teams developing next-generation lodging platform capabilities within Expedia Group\'s travel technology ecosystem. Orchestrated complete architectural transformation from legacy monolithic systems to scalable microservices infrastructure, implementing cloud-native solutions and DevOps practices. Established comprehensive technology roadmap aligned with corporate strategy, achieving 30% reduction in technical debt and code redundancy while improving system reliability and development velocity. Built high-performing Agile teams through strategic hiring, mentorship programs, and implementation of modern development methodologies, fostering culture of innovation and technical excellence.'
     },
     {
       title: 'Senior Software Engineer/Engineering Manager',
       company: 'Capital One',
       period: 'November 2014 - March 2018',
-      description: 'Built and led engineering teams for new business lines focused on auto dealers, generating multimillion-dollar revenue. Led high-impact initiatives building web applications with microservices architecture.'
+      description: 'Pioneered new business line development through strategic team building and technical leadership, establishing engineering capabilities for Capital One\'s auto dealer financing platform. Led end-to-end product development lifecycle from concept to market launch, generating multimillion-dollar revenue streams through innovative self-service customer portals and automated loan servicing systems. Architected and implemented scalable microservices solutions using containerized Docker deployments, establishing best practices for CI/CD pipelines and cloud infrastructure management. Mentored engineering talent across technical and leadership competencies, implementing performance management frameworks and career development pathways aligned with organizational growth objectives.'
     },
     {
       title: 'Software Developer',
       company: 'Epic Systems',
       period: 'February 2010 - November 2014',
-      description: 'Led team delivering tools for customer builds to production for major healthcare providers. Designed software applications for medical workflows, reducing code shipping time by 50%.'
+      description: 'Technical leadership of mission-critical healthcare software development for major healthcare systems serving millions of patients nationwide. Designed and implemented sophisticated software applications optimizing complex medical workflows within Admissions, Discharge, and Transfer (ADT) systems, ensuring compliance with healthcare regulations and patient safety standards. Led cross-functional initiatives establishing comprehensive end-to-end testing frameworks and quality assurance protocols, achieving 50%+ reduction in production deployment cycles while maintaining zero-defect patient safety requirements. Collaborated with clinical stakeholders and healthcare IT teams to translate complex medical requirements into scalable software solutions supporting enterprise-scale healthcare operations.'
     }
   ];
 
@@ -55,16 +55,19 @@ const AboutSection = () => {
             <div className="about-content">
               <h3 className="about-title">Hello, I'm Gurjinder Singh Batra</h3>
               <p className="about-text">
-                I'm a seasoned engineering leader with 15+ years of experience building and 
-                scaling technology solutions. Based in San Francisco, I currently serve as a 
-                Senior Engineering Manager at Cloudflare, where I lead multiple core product and 
-                platform teams managing over 20 engineers globally.
+                I'm an accomplished senior engineering executive with 15+ years of progressive leadership 
+                experience building and scaling enterprise technology solutions across multiple industry verticals. 
+                Based in San Francisco, I currently serve as Senior Engineering Manager at Cloudflare, where I 
+                provide strategic leadership for core infrastructure teams managing a diverse global workforce 
+                of 20+ engineers spanning multiple disciplines and experience levels.
               </p>
               <p className="about-text">
-                My expertise spans enterprise-grade system architecture, team leadership, and 
-                strategic product development. I'm passionate about driving technical innovation, 
-                building high-performing teams, and delivering solutions that generate hundreds 
-                of millions in revenue while impacting millions of users worldwide.
+                My executive expertise encompasses enterprise-grade system architecture, organizational transformation, 
+                strategic technology roadmap development, and cross-functional team leadership at scale. I specialize 
+                in driving technical innovation initiatives, establishing high-performance engineering cultures, and 
+                delivering transformational solutions that generate hundreds of millions in revenue while serving 
+                millions of users across global markets. Proven track record of successful P&L management, 
+                stakeholder alignment, and executive-level strategic planning.
               </p>
               <div className="about-stats">
                 <div className="stat-item">
