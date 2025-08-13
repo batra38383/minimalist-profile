@@ -1,6 +1,5 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import Saheb from "./IMG_6163.jpeg";
 import Saheb2 from "./saheb2.jpeg";
 import Saheb3 from "./saheb3.jpeg";
 import Saheb4 from "./saheb4.jpeg";
