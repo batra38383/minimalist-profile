@@ -15,8 +15,10 @@ const HeroSection = () => {
                 Senior Engineering Manager at Cloudflare
               </h2>
               <p className="hero-description">
-                Multifaceted technical career with 10+ years track record of innovation and success. 
-                Based in San Francisco, passionate about building scalable solutions and leading high-performing teams.
+                Results-driven Senior Engineering Manager with 15+ years of experience in software engineering 
+                and 9+ years leading high-performing engineering teams. Proven track record managing 20+ 
+                engineers globally, driving architectural transformations saving multiple millions annually, 
+                and securing hundreds of millions in new contracts.
               </p>
               <div className="hero-buttons">
                 <a href="#contact" className="btn btn-primary hero-btn">

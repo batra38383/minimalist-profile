@@ -3,12 +3,12 @@ import { Container, Row, Col, Card, ProgressBar } from 'react-bootstrap';
 
 const AboutSection = () => {
   const skills = [
-    { name: 'Leadership & Engineering Management', level: 95 },
-    { name: 'Cloud Computing & SaaS', level: 90 },
-    { name: 'System Architecture & Microservices', level: 90 },
-    { name: 'Strategic Planning & Product Development', level: 85 },
-    { name: 'Agile Methodologies & Innovation', level: 90 },
-    { name: 'Software Development & Technical', level: 85 }
+    { name: 'Team Building & Performance Management', level: 95 },
+    { name: 'Microservices & Platform Engineering', level: 90 },
+    { name: 'Cloud Computing & DevOps', level: 90 },
+    { name: 'Docker & Kubernetes', level: 85 },
+    { name: 'Strategic Planning & Product Delivery', level: 90 },
+    { name: 'Distributed Systems & API Development', level: 85 }
   ];
 
   const experiences = [
@@ -16,25 +16,25 @@ const AboutSection = () => {
       title: 'Senior Engineering Manager',
       company: 'Cloudflare',
       period: 'April 2019 - Present',
-      description: 'Executive leadership of multiple core product and platform engineering teams within Cloudflare\'s Control Plane infrastructure, managing a diverse global workforce of 20+ engineers across senior, mid-level, and junior experience levels. Drive strategic technology initiatives ensuring enterprise-grade platform readiness, scalability, and performance optimization for Fortune 500 customers. Spearhead organizational transformation from monolithic to microservices architecture, achieving $1M+ annual cost reduction while securing hundreds of millions in new enterprise contracts. Collaborate directly with C-suite executives and product leadership to establish technology roadmaps, resource allocation strategies, and cross-functional team coordination spanning multiple geographical regions.'
+      description: 'Led initiatives and delivered product features that enabled Cloudflare to scale enterprise business, securing hundreds of millions of dollars in new annual contracts. Managed cross-functional teams developing mission-critical tooling and platform services across Cloudflare\'s global infrastructure, supporting 99.99% uptime and serving millions of requests daily. Led architectural transformation from monolithic Control Plane to Micro Frontend architecture, reducing annual labor costs by multiple millions while improving deployment frequency by 300%. Built and led diverse teams of 20+ managers and engineers globally across 4 time zones, achieving 95%+ retention rate and fostering inclusive culture for talent development.'
     },
     {
       title: 'Engineering Manager',
       company: 'Hotwire (Expedia Group)',
       period: 'March 2018 - April 2019',
-      description: 'Strategic leadership of cross-functional engineering teams developing next-generation lodging platform capabilities within Expedia Group\'s travel technology ecosystem. Orchestrated complete architectural transformation from legacy monolithic systems to scalable microservices infrastructure, implementing cloud-native solutions and DevOps practices. Established comprehensive technology roadmap aligned with corporate strategy, achieving 30% reduction in technical debt and code redundancy while improving system reliability and development velocity. Built high-performing Agile teams through strategic hiring, mentorship programs, and implementation of modern development methodologies, fostering culture of innovation and technical excellence.'
+      description: 'Led hotels team of 12+ engineers to deliver product features that significantly improved sales conversion by 25% and increased revenue. Drove microservices adoption transforming monolith to 40+ services and long-term technology roadmap encouraging reuse of Expedia Group services, achieving 30% reduction in redundant code and simplified infrastructure. Led multiple teams of 15+ engineers transforming monolithic architecture to microservices and overseeing cloud migration, improving system performance and scalability. Recruited exceptional engineers and established agile team structures, creating collaborative environment that improved productivity by 35% and enhanced talent retention.'
     },
     {
       title: 'Senior Software Engineer/Engineering Manager',
       company: 'Capital One',
       period: 'November 2014 - March 2018',
-      description: 'Pioneered new business line development through strategic team building and technical leadership, establishing engineering capabilities for Capital One\'s auto dealer financing platform. Led end-to-end product development lifecycle from concept to market launch, generating multimillion-dollar revenue streams through innovative self-service customer portals and automated loan servicing systems. Architected and implemented scalable microservices solutions using containerized Docker deployments, establishing best practices for CI/CD pipelines and cloud infrastructure management. Mentored engineering talent across technical and leadership competencies, implementing performance management frameworks and career development pathways aligned with organizational growth objectives.'
+      description: 'Developed and delivered product features for Auto Loan servicing that enabled customer self-service, reducing call center volume by 60% and achieving 40% increase in tool adoption. Built engineering teams of 8+ engineers for auto dealer business lines, generating multi-million dollar revenue. Led initiatives building 20+ microservices and web applications for self-service customer needs, supporting 100K+ monthly active users. Mentored 10+ engineers while implementing agile methodologies, achieving 95% sprint delivery consistency and reducing time-to-market by 25%.'
     },
     {
       title: 'Software Developer',
       company: 'Epic Systems',
       period: 'February 2010 - November 2014',
-      description: 'Technical leadership of mission-critical healthcare software development for major healthcare systems serving millions of patients nationwide. Designed and implemented sophisticated software applications optimizing complex medical workflows within Admissions, Discharge, and Transfer (ADT) systems, ensuring compliance with healthcare regulations and patient safety standards. Led cross-functional initiatives establishing comprehensive end-to-end testing frameworks and quality assurance protocols, achieving 50%+ reduction in production deployment cycles while maintaining zero-defect patient safety requirements. Collaborated with clinical stakeholders and healthcare IT teams to translate complex medical requirements into scalable software solutions supporting enterprise-scale healthcare operations.'
+      description: 'Led team of 6+ engineers responsible for delivering deployment tools that facilitated production releases for 500+ major healthcare providers nationwide, serving 10M+ patient records. Designed and developed software applications enhancing complex workflows for medical staff in Admissions, Discharge, and Transfer Units. Delivered comprehensive end-to-end testing framework for complex healthcare applications, reducing deployment time by 50% and achieving 99.9% system reliability while ensuring patient safety. Oversaw migration of proprietary code into modern web-based applications serving 100+ hospitals.'
     }
   ];
 
@@ -55,19 +55,18 @@ const AboutSection = () => {
             <div className="about-content">
               <h3 className="about-title">Hello, I'm Gurjinder Singh Batra</h3>
               <p className="about-text">
-                I'm an accomplished senior engineering executive with 15+ years of progressive leadership 
-                experience building and scaling enterprise technology solutions across multiple industry verticals. 
-                Based in San Francisco, I currently serve as Senior Engineering Manager at Cloudflare, where I 
-                provide strategic leadership for core infrastructure teams managing a diverse global workforce 
-                of 20+ engineers spanning multiple disciplines and experience levels.
+                I'm a results-driven Senior Engineering Manager with 15+ years of experience in software engineering 
+                and 9+ years leading high-performing engineering teams. Based in San Francisco, I currently serve as 
+                Senior Engineering Manager at Cloudflare, where I manage cross-functional teams developing mission-critical 
+                tooling and platform services across Cloudflare's global infrastructure, supporting 99.99% uptime 
+                and serving millions of requests daily.
               </p>
               <p className="about-text">
-                My executive expertise encompasses enterprise-grade system architecture, organizational transformation, 
-                strategic technology roadmap development, and cross-functional team leadership at scale. I specialize 
-                in driving technical innovation initiatives, establishing high-performance engineering cultures, and 
-                delivering transformational solutions that generate hundreds of millions in revenue while serving 
-                millions of users across global markets. Proven track record of successful P&L management, 
-                stakeholder alignment, and executive-level strategic planning.
+                My expertise spans platform engineering, microservices architecture, and building scalable distributed systems. 
+                I have a proven track record of managing 20+ engineers globally, driving architectural transformations that 
+                save multiple millions annually, and securing hundreds of millions in new contracts. I specialize in building 
+                diverse teams across multiple time zones, achieving high retention rates while fostering inclusive cultures 
+                for talent development.
               </p>
               <div className="about-stats">
                 <div className="stat-item">
@@ -79,7 +78,7 @@ const AboutSection = () => {
                   <span>Engineers Managed</span>
                 </div>
                 <div className="stat-item">
-                  <h4>$1M+</h4>
+                  <h4>Multi-Million</h4>
                   <span>Cost Savings Led</span>
                 </div>
               </div>
